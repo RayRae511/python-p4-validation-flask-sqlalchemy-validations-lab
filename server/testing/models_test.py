@@ -8,6 +8,7 @@ from models import db, Author, Post
 
 class TestAuthor:
     '''Class Author in models.py'''
+    
 
     def test_requires_name(self):
         '''requires each record to have a name.'''
